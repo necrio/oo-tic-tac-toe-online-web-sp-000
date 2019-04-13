@@ -135,9 +135,10 @@ end
                 if won?
                          winner == "X" || winner == "O"
                        puts "Congratulations #{winner}!"
-           elsif draw?
+              elsif draw?
               puts "Cat's Game!"
-           end
+               end
+             end
 
 
 end
