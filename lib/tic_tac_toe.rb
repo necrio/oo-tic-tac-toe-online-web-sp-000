@@ -80,7 +80,7 @@ end
         puts 'try again'
         turn
         end
-        display_board
+        :display_board
         end
 
 
