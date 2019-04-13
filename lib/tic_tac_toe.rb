@@ -21,11 +21,11 @@ class TicTacToe
 
     def display_board
 
-   puts " #{self.spaces[0]} | #{self.spaces[1]} | #{self.spaces[2]} "
+   puts " #{self.board[0]} | #{self.board[1]} | #{self.board[2]} "
    puts "-----------"
-   puts " #{self.spaces[3]} | #{self.spaces[4]} | #{self.spaces[5]} "
+   puts " #{self.board[3]} | #{self.board[4]} | #{self.board[5]} "
    puts "-----------"
-   puts " #{self.spaces[6]} | #{self.spaces[7]} | #{self.spaces[8]} "
+   puts " #{self.board[6]} | #{self.board[7]} | #{self.board[8]} "
   end
 
 
