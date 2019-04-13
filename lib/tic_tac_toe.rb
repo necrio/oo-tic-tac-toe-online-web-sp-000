@@ -127,5 +127,17 @@ end
         end
 
 
+        
+def play
+ until over?
+    turn
+ end
+ if won?
+    winner == "X" || winner == "O"
+    puts "Congratulations #{winner(board)}!"
+ elsif draw?
+    puts "Cat's Game!"
+ end
+
 
 end
