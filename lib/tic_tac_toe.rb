@@ -1,11 +1,10 @@
 class TicTacToe
-  attr_accessor :spaces
+  attr_accessor :board
 
-  @spaces = []
+  def initialize(board = nil)
 
-  def initialize
-    self.spaces = Array.new(9, " ")
   end
+
 
   #   def display
   #  puts " #{self.spaces[0]} | #{self.spaces[1]} | #{self.spaces[2]} "
