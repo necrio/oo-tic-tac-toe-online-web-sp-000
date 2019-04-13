@@ -129,9 +129,9 @@ end
 
 
           def play
-           until over?
-              turn
-           end
+              until over?
+                      turn
+                    end
            if won?
               winner == "X" || winner == "O"
               puts "Congratulations #{winner}!"
