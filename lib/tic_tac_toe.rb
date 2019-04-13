@@ -102,6 +102,18 @@ end
    @board.all? {|i| i == "X" || i == "O"}
         end
 
+        def draw?
+
+    if !won? && full?
+      return true
+    else
+      false
+    end
+  else
+    false
+    puts "Cats game!"
+  end
+
 
 
 
