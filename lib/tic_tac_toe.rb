@@ -145,4 +145,4 @@ end
 
 
 game = TicTacToe.new
-game.board = "play"
+game.board
