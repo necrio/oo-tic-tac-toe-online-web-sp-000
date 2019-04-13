@@ -32,7 +32,7 @@ class TicTacToe
 
     user_input - 1
 
-end
+  end
 
 
 
