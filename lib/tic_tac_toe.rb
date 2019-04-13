@@ -17,7 +17,7 @@ class TicTacToe
     [2,4,6]
   ]
 
-  
+
 
     def display
    puts " #{self.spaces[0]} | #{self.spaces[1]} | #{self.spaces[2]} "
