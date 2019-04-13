@@ -95,8 +95,8 @@ end
               return combo
             end
             false
-        end
-      end
+          end
+      
 
 
 (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
