@@ -114,7 +114,7 @@ end
 
 
 
-        def over?(board)
+        def over?
               if draw? || won? || full?
                   return true
                 end
