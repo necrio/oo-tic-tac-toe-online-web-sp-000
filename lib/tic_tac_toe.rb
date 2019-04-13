@@ -13,7 +13,7 @@ class TicTacToe
    puts " #{self.spaces[3]} | #{self.spaces[4]} | #{self.spaces[5]} "
    puts "-----------"
    puts " #{self.spaces[6]} | #{self.spaces[7]} | #{self.spaces[8]} "
- end
+  end
 
 
 
