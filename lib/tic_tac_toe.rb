@@ -1,5 +1,5 @@
 class TicTacToe
-  attr_accessor :board
+  attr_accessor :play
 
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
