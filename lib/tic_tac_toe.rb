@@ -89,13 +89,16 @@ end
           winner = nil
 
           WIN_COMBINATIONS.detect do |combo|
-            @board[combo[0]] == @board[combo[1]] && @board[combo[1]] == @board[combo[2]] && position_taken?(combo[0])
+            if (@board[combo[0]]) == "X" && (@board[combo[1]]) == "X" && (@board[combo[2]]) == "X"
+              return combo
+            elsif 
+              (@board[combo[0]]) == "O" && (@board[combo[1]]) == "O" && (@board[combo[2]]) == "O"
 
         end
       end
 
 
-
+(@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
 
 
 end
