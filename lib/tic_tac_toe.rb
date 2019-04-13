@@ -144,5 +144,5 @@ end
 end
 
 
-# game = TicTacToe.new
-# game.play
+game = TicTacToe.new
+game.play
