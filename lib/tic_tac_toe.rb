@@ -3,6 +3,8 @@ class TicTacToe
 
   @spaces = []
 
+  def initialize
+    self.spaces = Array.new(9, " ")
 
 
 end
