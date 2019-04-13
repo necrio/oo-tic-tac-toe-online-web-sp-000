@@ -104,14 +104,12 @@ end
 
         def draw?
 
-    if !won? && full?
-      return true
-    else
-      false
-    end
-  else
-    false
-    puts "Cats game!"
+            if !won? && full?
+                return true
+              else
+                    false
+                  end
+
   end
 
 
