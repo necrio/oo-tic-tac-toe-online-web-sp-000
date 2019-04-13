@@ -20,7 +20,7 @@ class TicTacToe
 
 
     def display_board
-      
+
    puts " #{self.spaces[0]} | #{self.spaces[1]} | #{self.spaces[2]} "
    puts "-----------"
    puts " #{self.spaces[3]} | #{self.spaces[4]} | #{self.spaces[5]} "
